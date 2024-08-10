@@ -20,7 +20,7 @@ URL: [https://www.freecodecamp.org/learn/scientific-computing-with-python/build-
 もしオプションの開始曜日が指定されている場合、出力には結果の曜日を表示します。曜日は時間の後、日数の前に表示します。  
 
 以下は関数が処理するさまざまなケースの例です。結果のスペーシングと句読点に注意してください。  
-
+```
 add_time('3:00 PM', '3:10')  
 #戻り値: 6:10 PM  
 
@@ -38,7 +38,7 @@ add_time('11:43 PM', '24:20', 'tueSday')
 
 add_time('6:30 PM', '205:12')  
 #戻り値: 7:42 AM (9 days later)  
-
+```
 注意点:  
 Pythonのライブラリは使用しないこと。  
 開始時間は有効な時間であると仮定すること。  
